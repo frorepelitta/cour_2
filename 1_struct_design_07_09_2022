@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T12:41:01.841Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.84 (Edition Yx 05)" etag="5y5PHTVmiHpdy9BBHIBx" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-07T12:42:23.435Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 OPR/90.0.4480.84 (Edition Yx 05)" etag="EbelQCqW3pJT9L0fxHs-" version="20.2.8" type="github">
   <diagram id="sjCv8TGX146rJvP8Qh6Z" name="Страница 1">
     <mxGraphModel dx="880" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="6JkrbuV90ueN4jOgbQjR-9" value="Registered patient" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="320" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6JkrbuV90ueN4jOgbQjR-11" value="" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="6JkrbuV90ueN4jOgbQjR-11" value="Available nurse" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="460" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6JkrbuV90ueN4jOgbQjR-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6JkrbuV90ueN4jOgbQjR-13">
@@ -52,6 +52,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="590" y="300" as="sourcePoint" />
             <mxPoint x="350" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6JkrbuV90ueN4jOgbQjR-24" value="Record health condition" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6JkrbuV90ueN4jOgbQjR-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="6JkrbuV90ueN4jOgbQjR-24" target="6JkrbuV90ueN4jOgbQjR-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="630" as="sourcePoint" />
+            <mxPoint x="260" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
